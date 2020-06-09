@@ -9,8 +9,8 @@
     ));
 
     @include themer(color, (
-        'dark': $site-ui-masthead-dark-color1,
-        'light': $site-ui-masthead-light-color1,
+        'dark': $site-ui-masthead-color-dark,
+        'light': $site-ui-masthead-color-light,
     ));
     position: relative;
 
