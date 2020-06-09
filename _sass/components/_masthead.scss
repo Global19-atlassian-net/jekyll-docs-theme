@@ -8,7 +8,10 @@
         'light': linear-gradient(135deg, $site-ui-header-light-color1, $site-ui-header-light-color2),
     ));
 
-    color: white;
+    @include themer(color, (
+        'dark': $site-ui-masthead-dark-color1,
+        'light': $site-ui-masthead-light-color1,
+    ));
     position: relative;
 
     &::after {
